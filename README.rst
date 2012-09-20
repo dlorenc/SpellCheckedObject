@@ -9,7 +9,7 @@ Usage
 
 >>> from SpellCheckedObject import SpellCheckedObject
 >>> class CantSpell(SpellCheckedObject):
-        def test(self, x,y):
+        def test(self, x, y):
             return x + y
         @property
         def prop(self):
